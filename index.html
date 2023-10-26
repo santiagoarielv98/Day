@@ -9,15 +9,13 @@
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
-
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet" /> -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
@@ -83,9 +81,9 @@
             <li class="dropdown">
               <a href="#"><span>Servicios Funerarios</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-                <li><a href="#">Trámite Post-Funeral</a></li>
-                <li><a href="#">Qué hacer ante unas defunción</a></li>
-                <li><a href="#">Planificar en vida</a></li>
+                <li><a href="tramite-post-funeral.html">Trámite Post-Funeral</a></li>
+                <li><a href="tramite-ante-defuncion.html">Qué hacer ante una defunción</a></li>
+                <li><a href="planificar-en-vida.html">Planificar en vida</a></li>
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="#contacto">Contacto</a></li>
@@ -99,7 +97,7 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+      <div class="container position-relative">
         <svg width="100" height="100" class="bi">
           <use xlink:href="#logo" />
         </svg>
@@ -108,7 +106,9 @@
           Desde el primer momento en que nos llamas, nos encargamos de los trámites esenciales para dar inicio al
           servicio que corresponde.
         </h2>
-        <a href="#about" class="btn-get-started scrollto"> Llamanos </a>
+        <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center"
+          ><i class="bx bx-phone-call me-2"></i> Llamanos
+        </a>
       </div>
     </section>
     <!-- End Hero -->
@@ -118,7 +118,7 @@
       <section id="nosotros" class="about">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <div class="col-lg-6 order-1 order-lg-2">
               <img
                 src="assets/img/nosotros.jpeg"
                 class="img-fluid w-100"
@@ -126,10 +126,7 @@
                 style="height: 384px; object-fit: cover"
               />
             </div>
-            <div
-              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content d-flex flex-column justify-content-center"
-              data-aos="fade-right"
-            >
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content d-flex flex-column justify-content-center">
               <h3>Nosotros</h3>
               <p class="fst-italic fs-5">
                 En nuestra funeraria, somos una familia comprometida con nuestra comunidad. Nos aseguramos de ofrecer un
@@ -154,7 +151,7 @@
             </div>
           </div>
           <div class="row mt-5">
-            <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-left">
+            <div class="col-lg-6 order-2 order-lg-1">
               <img
                 src="assets/img/mision.jpg"
                 class="img-fluid w-100"
@@ -162,10 +159,7 @@
                 style="height: 384px; object-fit: cover"
               />
             </div>
-            <div
-              class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-2 content d-flex flex-column justify-content-center"
-              data-aos="fade-right"
-            >
+            <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-2 content d-flex flex-column justify-content-center">
               <h3>Misión</h3>
               <p class="fst-italic fs-5">
                 Nuestra misión es ayudar a que cada familia pueda despedirse de su ser querido de una manera digna y
@@ -197,7 +191,7 @@
       <section id="resenias" class="testimonials cta">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5">
               <div class="info-box info h-100 d-flex flex-column justify-content-center">
                 <h3>Nuestras reseñas</h3>
                 <p>
@@ -208,7 +202,7 @@
               </div>
             </div>
 
-            <div class="col-lg-7 testimonial-swiper" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-7 testimonial-swiper">
               <div class="swiper">
                 <template class="swiper-config">
                   { "loop": true, "speed" : 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": {
@@ -393,7 +387,7 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="icon-box">
                 <div class="icon">
                   <img src="assets/img/servicios/salon.png" alt="" />
@@ -407,11 +401,7 @@
               </div>
             </div>
 
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-              data-aos="fade-up"
-              data-aos-delay="150"
-            >
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
               <div class="icon-box">
                 <div class="icon">
                   <img src="assets/img/servicios/reducciones.png" alt="" />
@@ -422,11 +412,7 @@
               </div>
             </div>
 
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
               <div class="icon-box">
                 <div class="icon">
                   <img src="assets/img/servicios/inhumaciones.png" alt="" />
@@ -437,7 +423,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
               <div class="icon-box">
                 <div class="icon">
                   <img src="assets/img/servicios/cremaciones.png" alt="" />
@@ -448,7 +434,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
               <div class="icon-box">
                 <div class="icon">
                   <img src="assets/img/servicios/traslados.png" alt="" />
@@ -462,7 +448,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
               <div class="icon-box">
                 <div class="icon">
                   <img src="assets/img/servicios/gestoria.jpg" alt="" />
@@ -481,7 +467,7 @@
 
       <!-- ======= Cta Section ======= -->
       <!--       <section id="cta" class="cta">
-        <div class="container" data-aos="zoom-in">
+        <div class="container">
           <div class="text-center">
             <h3>Call To Action</h3>
             <p>
@@ -504,7 +490,7 @@
             <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
           </div>
 
-          <div class="row" data-aos="fade-up">
+          <div class="row" >
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
                 <li data-filter="*" class="filter-active">All</li>
@@ -515,7 +501,7 @@
             </div>
           </div>
 
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+          <div class="row portfolio-container">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
@@ -692,7 +678,7 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
+            <div class="col-lg-4 col-md-6" >
               <div class="box">
                 <h3>Free</h3>
                 <h4><sup>$</sup>0<span> / month</span></h4>
@@ -709,7 +695,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
+            <div class="col-lg-4 col-md-6 mt-4 mt-md-0" >
               <div class="box featured">
                 <h3>Business</h3>
                 <h4><sup>$</sup>19<span> / month</span></h4>
@@ -726,7 +712,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" >
               <div class="box">
                 <h3>Developer</h3>
                 <h4><sup>$</sup>29<span> / month</span></h4>
@@ -757,7 +743,7 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" >
               <div class="member">
                 <img src="assets/img/team/team-1.jpg" alt="" />
                 <h4>Walter White</h4>
@@ -775,7 +761,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" >
               <div class="member">
                 <img src="assets/img/team/team-2.jpg" alt="" />
                 <h4>Sarah Jhinson</h4>
@@ -793,7 +779,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" >
               <div class="member">
                 <img src="assets/img/team/team-3.jpg" alt="" />
                 <h4>William Anderson</h4>
@@ -823,7 +809,7 @@
             <p>No dudes en ponerte en contacto con nosotros</p>
           </div>
 
-          <div class="row" data-aos="fade-up">
+          <div class="row">
             <div class="col-lg-6">
               <div class="info-box mb-4">
                 <i class="bx bx-map"></i>
@@ -849,7 +835,7 @@
             </div>
           </div>
 
-          <div class="row" data-aos="fade-up">
+          <div class="row">
             <div class="col-lg-6">
               <iframe
                 class="mb-4 mb-lg-0"
@@ -947,7 +933,7 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
+    <!-- <script src="assets/vendor/aos/aos.js"></script> -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
