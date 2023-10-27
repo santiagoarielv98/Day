@@ -14,7 +14,7 @@
     />
     <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" re l="stylesheet" />
     <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link href="../assets/css/style.css" rel="stylesheet" />
   </head>
@@ -96,7 +96,10 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <div class="portfolio-details-slider swiper">
-                  <template class="swiper-config"> { "loop": true, } </template>
+                  <template class="swiper-config">
+                    { "loop": true, "speed" : 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination":
+                    { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
+                  </template>
                   <div class="swiper-wrapper align-items-center">
                     <div class="swiper-slide">
                       <img src="../assets/img/servicios/salas-de-velorio/1.jpeg" alt="Foto de sala de velorio" />
