@@ -86,11 +86,6 @@ h6 {
     transform: rotate(360deg);
   }
 }
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
 #header {
   background: rgba(25, 25, 25, 0.95);
   transition: all 0.5s;
@@ -265,8 +260,8 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: var(--primary-color);
-  background: none;
+  background: var(--primary-color);
+  color: #fff !important;
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -295,6 +290,9 @@ h6 {
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
+}
+.navbar-mobile .dropdown.active {
+  background: none !important;
 }
 #hero {
   width: 100%;
