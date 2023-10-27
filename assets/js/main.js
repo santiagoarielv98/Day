@@ -100,7 +100,6 @@
     function (e) {
       if (select(this.hash)) {
         e.preventDefault();
-
         let navbar = select("#navbar");
         if (navbar.classList.contains("navbar-mobile")) {
           navbar.classList.remove("navbar-mobile");
@@ -114,9 +113,6 @@
     true
   );
 
-  /**
-   * Scroll with ofset on page load with hash links in the url
-   */
   window.addEventListener("load", () => {
     if (window.location.hash) {
       if (select(window.location.hash)) {
@@ -130,19 +126,6 @@
       preloader.remove();
     });
   }
-  new Swiper(".portfolio-details-slider", {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-  });
 
   function initSwiper() {
     document.querySelectorAll(".swiper").forEach(function (swiper) {
